@@ -1,0 +1,15 @@
+{
+  "name": "my-template",
+  "version": "1.0.0",
+  "description": "This is my template to help me start working on a project quickly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
