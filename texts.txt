@@ -25,3 +25,14 @@
     '<rootDir>/test/jest/__mocks__/fileMock.js',
   '\\.(css|less)$': '<rootDir>/src/tests/jest/__mocks__/styleMocker.js',
 },
+
+
+--------------------------------------------------------------------
+
+for React Setup!!
+
+npm create vite@latest my-first-react-app -- --template react
+
+cd my-first-react-app
+npm install
+npm run dev
